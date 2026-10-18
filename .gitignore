@@ -1,0 +1,29 @@
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+jieba.cache
+.DS_Store
+
+# Local corpus, derived text, and trained models
+data/*
+!data/README.md
+!data/processed/
+data/processed/*
+models/
+results/
+REPORT.md
+SOURCE_NOTES.md
+
+# Local credentials and generated deliverables
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.pdf
+*.zip
+dist/
+MANIFEST.json
